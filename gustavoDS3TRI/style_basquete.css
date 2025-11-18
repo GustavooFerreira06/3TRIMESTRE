@@ -17,8 +17,11 @@
     background-color: var(--cinza);
     color: var(--preto);
   }
-  
-  /* ===== CABEÇALHO ===== */
+  h7 {
+
+    size: 10cm;
+  }
+ 
   .cabecalho {
     background-color: var(--laranja);
     color: var(--branco);
@@ -145,8 +148,6 @@
   .conteudo__botao:hover {
     background-color: #e50000;
   }
-  
-  /* ===== CARROSSEL ===== */
   .carrossel {
     text-align: center;
     padding: 2rem 1rem;
@@ -201,7 +202,7 @@
     right: 10px;
   }
   
-  /* ===== RODAPÉ ===== */
+
   .rodape {
     background-color: var(--preto);
     color: var(--branco);
@@ -215,7 +216,6 @@
     margin-right: 10px;
   }
   
-  /* ===== RESPONSIVIDADE ===== */
   @media (max-width: 768px) {
     .cabecalho__menu {
       display: block;
